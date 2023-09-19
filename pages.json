@@ -1,0 +1,87 @@
+{
+	"pages": [{
+			"path": "pages/miniGame/list",
+			"style": {
+				"navigationBarTitleText": "小游戏",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/panorama/camera/index",
+			"style": {
+				"navigationBarTitleText": "全景摄影"
+			}
+		}, {
+			"path": "pages/panorama/camera/list",
+			"style": {
+				"navigationBarTitleText": "全景列表",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/miniGame/game2",
+			"style": {
+				"navigationBarTitleText": "彩票拼图"
+			}
+		}, {
+			"path": "pages/miniGame/game3",
+			"style": {
+				"navigationBarTitleText": "幸运连连看"
+			}
+		}, {
+			"path": "pages/panorama/show/mobile",
+			"style": {
+				"navigationBarTitleText": "全景展示"
+			}
+		}, {
+			"path": "pages/panorama/show/pc",
+			"style": {
+				"navigationBarTitleText": "全景展示"
+			}
+		},
+		{
+			"path": "pages/miniGame/game1",
+			"style": {
+				"navigationBarTitleText": "彩票试挂"
+			}
+		},
+		{
+			"path": "pages/panorama/dispose/index",
+			"style": {
+				"navigationBarTitleText": "后台处理"
+			}
+		}
+	],
+	// "tabBar": {
+	// 	"custom": true, //这是重点，不然在微信小程序中会有异常
+	// 	"color": "#333333",
+	// 	"list": [{
+	// 			"text": "全景相机",
+	// 			"pagePath": "pages/index/index"
+	// 		},
+	// 		{
+	// 			"text": "小游戏",
+	// 			"pagePath": "pages/miniGame/index"
+	// 		},{
+	// 			"text": "vr",
+	// 			"pagePath": "pages/vrdemo/index"
+	// 		},
+	// 		{
+	// 			"text": "刮刮乐",
+	// 			"pagePath": "pages/scratchTicket/index"
+	// 		}
+	// 	]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"rpxCalcMaxDeviceWidth": 9999
+	},
+
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}
